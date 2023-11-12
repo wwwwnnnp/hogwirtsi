@@ -57,6 +57,16 @@ position: absolute;
 	left: 460px;
 }
 
+.p3 {
+	top:400px ;
+	left: 50px;
+}
+
+.p4 {
+	top:130px ;
+	left: 800px;
+}
+
 .about li {
 	position:fixed;
 	width: 500px;
@@ -70,7 +80,9 @@ position: absolute;
 }
 
 #link1_about:target,
-#link2_about:target {	
+#link2_about:target,
+#link3_about:target,
+#link4_about:target {	
 	display: block;
 }
 .about p {
