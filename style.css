@@ -1,0 +1,92 @@
+
+
+Body{
+	font:  ;
+	background-color: black;
+	overflow:hidden;
+}
+
+*{
+	margin: 0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.map {
+	background-image: url(images/1474308320_1_14.jpg);
+	height: 650px;
+	width: 1018px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	
+}
+
+.pointer li {
+	width: 100px;
+	height:  100px;
+	border: 2px solid black;
+	border-radius: 50% 50% 50% 0;
+	transform: rotate(-45deg);
+position: absolute;
+	
+	
+	
+	background-color: rgba(137, 118, 80, 0.6);
+}
+
+.pointer p {
+	transform: rotate(45deg);
+	padding: 25px;
+}
+	
+
+.pointer a{
+	color: #ffffcd;
+}
+	
+.p1 {
+	top: 80px;
+	left: 560px;
+}
+
+.p2 {
+	top:300px ;
+	left: 460px;
+}
+
+.about li {
+	position:fixed;
+	width: 500px;
+	height: 500px;
+	background-color: rgba(225, 170, 58, .8);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	display: none;
+}
+
+#link1_about:target,
+#link2_about:target {	
+	display: block;
+}
+.about p {
+	padding: 80px;
+	font-size: 22px;
+}
+
+.about a {
+	background-color: black;
+	color: white;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
